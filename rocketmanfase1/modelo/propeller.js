@@ -3,6 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var Propeller = /** @class */ (function () {
     function Propeller() {
+        console.log("llego al propeller");
     }
     return Propeller;
 }());

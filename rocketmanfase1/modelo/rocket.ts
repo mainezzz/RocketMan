@@ -10,16 +10,16 @@
 
 //Crear clase Rocket
 
+//Importar clase Propeller a Rocket
+
+import {Propeller} from './propeller';
+
 export class Rocket {
     rocketname:string;
     numPropellers:number=0;
 
-    constructor(rocketname:string,numPropellers:number){
+    constructor(rocketname:string, numPropellers:number){
       this.rocketname = rocketname;
-      this.numPropellers=numPropellers;
+      this.numPropellers = numPropellers;
     }
 }
-
-//Importar clase Propeller a Rocket
-
-import {Propeller} from './propeller';
