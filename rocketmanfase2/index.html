@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ejercicio RocketMan</title>
+</head>
+
+<body>
+    <div id="cohete1">
+        <h2>Este es mi primer cohete: </h2>
+        <img src="img/rocket1.jpg" alt="Mi primer cohete" id="rocket1img" width="70%">
+        <p id="cohete1p"></p>
+
+    </div>
+
+    <div id="cohete2">
+        <h2>Este es mi segundo cohete: </h2>
+        <img src="img/rocket2.jpg" alt="Mi segundo cohete" id="rocket1img" width="70%">
+        <p id="cohete2p"></p>
+
+    </div>
+
+    <script src="https://unpkg.com/systemjs@0.19.29/dist/system.src.js"></script>
+    <script>
+        System.config({
+            defaultJSExtensions: true
+        });
+        System.import('controlador/controller');
+    </script>
+
+</body>
+
+</html>
